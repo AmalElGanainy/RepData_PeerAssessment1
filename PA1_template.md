@@ -17,6 +17,7 @@ activityData <- read.csv('activity.csv')
 #activityData$interval <- strptime(gsub("([0-9]{1,2})([0-9]{2})", "\\1:\\2", activityData$interval), format='%H:%M')
 ```
 
+
 -----
 
 ## What is mean total number of steps taken per day?
